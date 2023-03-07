@@ -1,3 +1,5 @@
 const myApp = document.getElementById("pingpong");
+const ctx = myApp.getContext("2d");
 
-console.log("hello console");
+console.log(ctx);
+
